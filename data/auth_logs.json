@@ -1,0 +1,50 @@
+[
+    {
+      "event_id": "AUTH-001",
+      "alert_id": "INC-1001",
+      "user": "employee01",
+      "source_ip": "10.10.20.15",
+      "event": "FAILED_LOGIN",
+      "timestamp": "2026-09-30T09:01:00"
+    },
+    {
+      "event_id": "AUTH-002",
+      "alert_id": "INC-1001",
+      "user": "employee01",
+      "source_ip": "10.10.20.15",
+      "event": "FAILED_LOGIN",
+      "timestamp": "2026-09-30T09:02:00"
+    },
+    {
+      "event_id": "AUTH-003",
+      "alert_id": "INC-1001",
+      "user": "employee01",
+      "source_ip": "10.10.20.15",
+      "event": "SUCCESSFUL_LOGIN",
+      "timestamp": "2026-09-30T09:03:00"
+    },
+    {
+      "event_id": "AUTH-004",
+      "alert_id": "INC-1003",
+      "user": "admin01",
+      "source_ip": "185.22.14.91",
+      "event": "FAILED_LOGIN",
+      "timestamp": "2026-09-30T09:10:00"
+    },
+    {
+      "event_id": "AUTH-005",
+      "alert_id": "INC-1003",
+      "user": "admin01",
+      "source_ip": "185.22.14.91",
+      "event": "FAILED_LOGIN",
+      "timestamp": "2026-09-30T09:11:00"
+    },
+    {
+      "event_id": "AUTH-006",
+      "alert_id": "INC-1003",
+      "user": "admin01",
+      "source_ip": "185.22.14.91",
+      "event": "SUCCESSFUL_LOGIN",
+      "timestamp": "2026-09-30T09:12:00"
+    }
+  ]

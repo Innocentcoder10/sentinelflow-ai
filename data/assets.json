@@ -1,0 +1,23 @@
+[
+    {
+      "asset": "LAPTOP-EMP-021",
+      "asset_type": "Employee Laptop",
+      "criticality": "LOW",
+      "owner": "Employee 01",
+      "environment": "Corporate"
+    },
+    {
+      "asset": "LAPTOP-EMP-045",
+      "asset_type": "Employee Laptop",
+      "criticality": "MEDIUM",
+      "owner": "Employee 02",
+      "environment": "Corporate"
+    },
+    {
+      "asset": "PROD-DB-01",
+      "asset_type": "Production Database Server",
+      "criticality": "CRITICAL",
+      "owner": "Database Operations",
+      "environment": "Production"
+    }
+  ]

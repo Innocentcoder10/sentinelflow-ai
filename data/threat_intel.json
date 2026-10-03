@@ -1,0 +1,20 @@
+[
+    {
+      "ip": "10.10.20.15",
+      "reputation": "BENIGN",
+      "confidence": 0.98,
+      "source": "Synthetic Threat Intelligence Database"
+    },
+    {
+      "ip": "172.16.44.20",
+      "reputation": "UNKNOWN",
+      "confidence": 0.50,
+      "source": "Synthetic Threat Intelligence Database"
+    },
+    {
+      "ip": "185.22.14.91",
+      "reputation": "MALICIOUS",
+      "confidence": 0.96,
+      "source": "Synthetic Threat Intelligence Database"
+    }
+  ]

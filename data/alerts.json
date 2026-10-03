@@ -1,0 +1,53 @@
+[
+    {
+      "alert_id": "INC-1001",
+      "case_type": "NORMAL",
+      "alert_name": "Multiple Failed Login Attempts",
+      "description": "Several failed login attempts followed by a successful login.",
+      "user": "employee01",
+      "source_ip": "10.10.20.15",
+      "source_country": "India",
+      "destination_asset": "LAPTOP-EMP-021",
+      "failed_login_count": 3,
+      "successful_login": true,
+      "vpn_detected": true,
+      "impossible_travel": false,
+      "privileged_account": false,
+      "suspicious_process": false,
+      "asset_criticality": "LOW"
+    },
+    {
+      "alert_id": "INC-1002",
+      "case_type": "AMBIGUOUS",
+      "alert_name": "Unusual Login Location",
+      "description": "A successful login occurred from an unusual geographic location.",
+      "user": "employee02",
+      "source_ip": "172.16.44.20",
+      "source_country": "Singapore",
+      "destination_asset": "LAPTOP-EMP-045",
+      "failed_login_count": 2,
+      "successful_login": true,
+      "vpn_detected": true,
+      "impossible_travel": true,
+      "privileged_account": false,
+      "suspicious_process": false,
+      "asset_criticality": "MEDIUM"
+    },
+    {
+      "alert_id": "INC-1003",
+      "case_type": "HIGH_RISK",
+      "alert_name": "Potential Privileged Account Compromise",
+      "description": "Multiple failed logins followed by successful privileged access to a critical production server.",
+      "user": "admin01",
+      "source_ip": "185.22.14.91",
+      "source_country": "Russia",
+      "destination_asset": "PROD-DB-01",
+      "failed_login_count": 15,
+      "successful_login": true,
+      "vpn_detected": false,
+      "impossible_travel": true,
+      "privileged_account": true,
+      "suspicious_process": true,
+      "asset_criticality": "CRITICAL"
+    }
+  ]

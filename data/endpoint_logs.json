@@ -1,0 +1,23 @@
+[
+    {
+      "event_id": "END-001",
+      "alert_id": "INC-1001",
+      "asset": "LAPTOP-EMP-021",
+      "process": "chrome.exe",
+      "suspicious": false
+    },
+    {
+      "event_id": "END-002",
+      "alert_id": "INC-1002",
+      "asset": "LAPTOP-EMP-045",
+      "process": "chrome.exe",
+      "suspicious": false
+    },
+    {
+      "event_id": "END-003",
+      "alert_id": "INC-1003",
+      "asset": "PROD-DB-01",
+      "process": "powershell.exe",
+      "suspicious": true
+    }
+  ]
