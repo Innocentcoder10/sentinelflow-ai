@@ -1,4 +1,4 @@
-# SentinelFlow AI
+# SentinelFlow AI.   BY HARSH MEHTA
 
 ## Governed Agentic AI for SOC Alert Triage & Incident Investigation
 
